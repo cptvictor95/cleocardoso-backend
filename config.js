@@ -1,5 +1,4 @@
-const dotenv = require("dotenv");
-dotenv.config();
+require("dotenv").config();
 
 const emailUser = process.env.API_EMAIL_USER;
 const emailPass = process.env.API_EMAIL_PASS;
